@@ -1,0 +1,65 @@
+h1, li {
+    font-family: 'Garamond', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+h1 {
+    font-size: 32px;
+    width: 624px;
+    margin: 20px auto;
+    background-color: black;
+    border: 6px groove red;
+    border-radius: 5px;
+    padding: 8px;
+    outline: gray groove 5px;
+}
+
+ul {
+    width: 600px;
+    margin: 20px auto;
+    background-color: red;
+    border: 6px groove black;
+    border-radius: 5px;
+}
+
+li {
+    font-size: 16px;
+    padding: 6px;
+}
+
+/* unvisited link */
+a:link {
+    color: darkgray;
+}
+  
+/* visited link */
+a:visited {
+    color: purple;
+}
+  
+/* mouse over link */
+a:hover {
+    cursor: default;
+    color: hotpink;
+}
+  
+/* selected link */
+a:active {
+    color: cyan;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+/*
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;*/

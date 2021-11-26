@@ -98,8 +98,8 @@ img{
 }
 
 .column{
-    max-width: 15%;
     border: 1px solid red;
+    max-width: 15rem;
 }
 
 /* visited link */
